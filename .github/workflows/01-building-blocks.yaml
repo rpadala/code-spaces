@@ -1,0 +1,14 @@
+name: 01- Building Blocks
+on: push
+
+jobs: 
+    echo-hello:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Echo message
+              run: echo "Building Blocks Workflow"
+    echo-goodbye:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Echo message
+              run: echo "Building Blocks Workflow 2"
